@@ -16,7 +16,7 @@ namespace ConsoleApp1
     {
         public int Id { get; set; }
         public int UserId { get; set; }
-        public int TopicId { get; set; }
+        public int SubjectId { get; set; }
     
         public virtual Subjects Subjects { get; set; }
         public virtual Users Users { get; set; }

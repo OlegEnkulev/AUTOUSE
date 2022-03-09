@@ -17,7 +17,6 @@ namespace ConsoleApp1
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Users()
         {
-            this.News = new HashSet<News>();
             this.Subjects = new HashSet<Subjects>();
             this.UsersGrades = new HashSet<UsersGrades>();
             this.UsersInSubjects = new HashSet<UsersInSubjects>();
@@ -32,8 +31,6 @@ namespace ConsoleApp1
         public Nullable<int> GroupID { get; set; }
     
         public virtual Groups Groups { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<News> News { get; set; }
         public virtual Roles Roles { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Subjects> Subjects { get; set; }

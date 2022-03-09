@@ -9,9 +9,9 @@ namespace ConsoleApp1
 {
     internal class Program
     {
-        public static UchetDBEntities DB = new UchetDBEntities();
-        public static string[] maleNames = File.ReadAllLines("MaleNames.txt", Encoding.UTF8);
-        public static string[] maleSurnames = File.ReadAllLines("MaleSurnames.txt", Encoding.UTF8);
+        public static UchetDBEntities1 DB = new UchetDBEntities1();
+        public static string[] maleNames = File.ReadAllLines("Names.txt", Encoding.UTF8);
+        public static string[] maleSurnames = File.ReadAllLines("Surnames.txt", Encoding.UTF8);
         public static string[] logins = File.ReadAllLines("Logins.txt", Encoding.UTF8);
         public static int count;
 

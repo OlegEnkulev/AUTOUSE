@@ -13,10 +13,10 @@ namespace ConsoleApp1
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class UchetDBEntities : DbContext
+    public partial class UchetDBEntities1 : DbContext
     {
-        public UchetDBEntities()
-            : base("name=UchetDBEntities")
+        public UchetDBEntities1()
+            : base("name=UchetDBEntities1")
         {
         }
     
@@ -27,7 +27,6 @@ namespace ConsoleApp1
     
         public virtual DbSet<Grades> Grades { get; set; }
         public virtual DbSet<Groups> Groups { get; set; }
-        public virtual DbSet<News> News { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
         public virtual DbSet<Subjects> Subjects { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }

@@ -4,20 +4,18 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="a2732952c16e4dabb756b360fb4c2358" Name="Diagram1">
-        <EntityTypeShape EntityType="UchetDBModel.Grades" Width="1.5" PointX="7.5" PointY="8.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.Groups" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.News" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.Roles" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.Subjects" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.Topics" Width="1.5" PointX="7.5" PointY="5.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.Users" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.UsersGrades" Width="1.5" PointX="9.75" PointY="4.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="UchetDBModel.UsersInSubjects" Width="1.5" PointX="7.5" PointY="2.625" IsExpanded="true" />
+      <Diagram DiagramId="4d3d55da0736400581bb07d1dab0115e" Name="Diagram1">
+        <EntityTypeShape EntityType="UchetDBModel.Grades" Width="1.5" PointX="7.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchetDBModel.Groups" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchetDBModel.Roles" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchetDBModel.Subjects" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchetDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchetDBModel.Topics" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchetDBModel.Users" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchetDBModel.UsersGrades" Width="1.5" PointX="9.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UchetDBModel.UsersInSubjects" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
         <AssociationConnector Association="UchetDBModel.FK_UsersGrades_Grades" ManuallyRouted="false" />
         <AssociationConnector Association="UchetDBModel.FK_Users_Groups" ManuallyRouted="false" />
-        <AssociationConnector Association="UchetDBModel.FK_News_Users" ManuallyRouted="false" />
         <AssociationConnector Association="UchetDBModel.FK_Users_Roles" ManuallyRouted="false" />
         <AssociationConnector Association="UchetDBModel.FK_Subjects_Users1" ManuallyRouted="false" />
         <AssociationConnector Association="UchetDBModel.FK_Topics_Subjects" ManuallyRouted="false" />

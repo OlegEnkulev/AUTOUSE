@@ -21,7 +21,7 @@ namespace ConsoleApp1
         }
     
         public int Id { get; set; }
-        public int Name { get; set; }
+        public string Name { get; set; }
         public System.DateTime Date { get; set; }
         public int SubjectId { get; set; }
     
